@@ -273,7 +273,7 @@
     let selectedDocIds = new Set();
 
     function fetchResults() {
-      db.collection("quiz_results 19").orderBy("submittedAt", "desc").get()
+      db.collection("quiz_results 20").orderBy("submittedAt", "desc").get()
       .then((querySnapshot) => {
         allExamData = [];
         selectedDocIds.clear();
